@@ -1,0 +1,18 @@
+{
+    "properties" : [{
+        "model_part_name" : "Structure.Parts_Shell_Shell_Auto2",
+        "properties_id"   : 1,
+        "Material"        : {
+            "constitutive_law" : {
+                "name" : "LinearElasticPlaneStress2DLaw"
+            },
+            "Variables"        : {
+                "THICKNESS"     : 2.0,
+                "DENSITY"       : 7.850e-9,
+                "YOUNG_MODULUS" : 206900.0,
+                "POISSON_RATIO" : 0.29
+            },
+            "Tables"           : {}
+        }
+    }]
+}
